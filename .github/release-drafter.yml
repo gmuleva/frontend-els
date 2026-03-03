@@ -41,7 +41,7 @@ template: |
   ## Docker Image
   
   ```
-  docker pull harishdell/frontend:$RESOLVED_VERSION
+  docker pull gouravmuleva/frontend:$RESOLVED_VERSION
   ```
   
   ## Contributors

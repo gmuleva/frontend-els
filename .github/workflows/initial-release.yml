@@ -16,7 +16,7 @@ on:
 env:
   PACT_BROKER_URL: ${{ vars.PACT_BROKER_URL }}
   PACT_BROKER_USERNAME: ${{ vars.PACT_BROKER_USERNAME }}
-  DOCKER_IMAGE: harishdell/frontend
+  DOCKER_IMAGE: gouravmuleva/frontend
 
 jobs:
   validate:
@@ -122,6 +122,6 @@ jobs:
             - Product catalog and authentication UI
             
             ### Docker Image
-            `harishdell/frontend:${{ steps.version.outputs.version }}`
+            `gouravmuleva/frontend:${{ steps.version.outputs.version }}`
           draft: false
           prerelease: false
